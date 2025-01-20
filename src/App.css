@@ -28,6 +28,12 @@ body {
   /* padding: 18px; */
   gap: 12px;
 }
+@media screen and (max-width:375px){
+  #inner-container{
+    border: none;
+    align-items: center;
+  }
+}
 #heading-name {
   font-weight: 100;
   font-size: large;
