@@ -20,6 +20,13 @@ body {
   justify-content: center;
   /* padding: 10px; */
 }
+@media screen and (max-width:375px){
+  #outer-container {
+    border: none;
+    align-items: center;
+  }
+}
+
 #inner-container {
   margin: 30px;
   border-top: 2px solid black;
@@ -28,12 +35,7 @@ body {
   /* padding: 18px; */
   gap: 12px;
 }
-@media screen and (max-width:375px){
-  #outer-container{
-    border: none;
-    align-items: center;
-  }
-}
+
 #heading-name {
   font-weight: 100;
   font-size: large;
