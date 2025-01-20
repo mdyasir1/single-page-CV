@@ -20,7 +20,7 @@ body {
   justify-content: center;
   /* padding: 10px; */
 }
-@media screen and (max-width:375px){
+@media screen and (max-width:320px){
   #outer-container {
     border: none;
     align-items: center;
@@ -53,4 +53,4 @@ body {
 nav{
   display: inline-block;
   text-decoration: none;
-}
+}}
