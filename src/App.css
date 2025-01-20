@@ -29,7 +29,7 @@ body {
   gap: 12px;
 }
 @media screen and (max-width:375px){
-  #inner-container{
+  #outer-container{
     border: none;
     align-items: center;
   }
