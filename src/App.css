@@ -20,7 +20,7 @@ body {
   justify-content: center;
   /* padding: 10px; */
 }
-@media screen and (max-width:320px){
+@media screen and (max-width:400px){
   #outer-container {
     border: none;
     align-items: center;
